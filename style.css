@@ -117,3 +117,50 @@ h2 {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+  padding: 16px 24px;
+  background: #000000;
+  border: 3px solid #00f12c;
+  border-radius: 12px;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #00ff5e;
+}
+
+#nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-li a {
+  color: #00ff4c;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.nav-li a:hover {
+  background: #00ff2f;
+  color: #000000;
+}
+
+
+
