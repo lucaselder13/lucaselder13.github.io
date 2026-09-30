@@ -44,9 +44,9 @@ $(function () {
 
     // TODO 3 - Create Collectables
 
-createCollectable("steve", 1350, 400);
-createCollectable("diamond", 200, 170, 0.5, 0.7);
-createCollectable("diamond", 1350, 600, 0.5, 0.5);
+createCollectable("chaosEmerald", 1350, 400);
+createCollectable("ring", 200, 170, 0.5, 0.7);
+createCollectable("ring", 1350, 600, 0.5, 0.5);
 
     
     // TODO 4 - Create Cannons
